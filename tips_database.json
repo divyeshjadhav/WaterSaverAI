@@ -1,0 +1,197 @@
+{
+  "bathroom": [
+    {
+      "id": "b1",
+      "title": "Short Showers",
+      "description": "Take 5-minute showers instead of 10",
+      "water_saved": 20,
+      "cost_saved": 240,
+      "difficulty": "Easy",
+      "emoji": "🚿",
+      "implementation_time": "0 minutes",
+      "steps": ["Set phone timer", "Wet body (1 min)", "Shampoo/soap (3 min)", "Rinse (1 min)"]
+    },
+    {
+      "id": "b2",
+      "title": "Low-Flow Showerhead",
+      "description": "Install a water-saving showerhead",
+      "water_saved": 25,
+      "cost_saved": 300,
+      "difficulty": "Easy",
+      "emoji": "💧",
+      "implementation_time": "5 minutes",
+      "steps": ["Turn off water", "Unscrew old head", "Screw new head", "Test water flow"]
+    },
+    {
+      "id": "b3",
+      "title": "Fix Leaky Taps",
+      "description": "Repair dripping taps immediately",
+      "water_saved": 45,
+      "cost_saved": 540,
+      "difficulty": "Medium",
+      "emoji": "🔧",
+      "implementation_time": "15 minutes",
+      "steps": ["Turn off water valve", "Unscrew handle", "Replace rubber washer", "Screw back", "Test"]
+    },
+    {
+      "id": "b4",
+      "title": "Dual-Flush Toilet",
+      "description": "Use dual-flush option to save water",
+      "water_saved": 30,
+      "cost_saved": 360,
+      "difficulty": "Easy",
+      "emoji": "🚽",
+      "implementation_time": "0 minutes",
+      "steps": ["Check toilet type", "Use appropriate flush", "Saves water per flush"]
+    },
+    {
+      "id": "b5",
+      "title": "Collect Cold Water While Heating",
+      "description": "Collect water while waiting for hot water",
+      "water_saved": 15,
+      "cost_saved": 180,
+      "difficulty": "Easy",
+      "emoji": "🪣",
+      "implementation_time": "2 minutes",
+      "steps": ["Place bucket under tap", "Collect cold water", "Use for plants/cleaning"]
+    }
+  ],
+  "kitchen": [
+    {
+      "id": "k1",
+      "title": "Use Bucket for Washing",
+      "description": "Fill bucket instead of running tap",
+      "water_saved": 35,
+      "cost_saved": 420,
+      "difficulty": "Easy",
+      "emoji": "🪣",
+      "implementation_time": "0 minutes",
+      "steps": ["Keep bucket ready", "Fill with water", "Wash dishes in bucket", "Quick rinse"]
+    },
+    {
+      "id": "k2",
+      "title": "Full Dishwasher Loads",
+      "description": "Run dishwasher only when full",
+      "water_saved": 30,
+      "cost_saved": 360,
+      "difficulty": "Easy",
+      "emoji": "🍽️",
+      "implementation_time": "0 minutes",
+      "steps": ["Wait for full load", "Use eco mode", "Run dishwasher"]
+    },
+    {
+      "id": "k3",
+      "title": "Soak and Scrub Method",
+      "description": "Soak dishes first, then scrub",
+      "water_saved": 25,
+      "cost_saved": 300,
+      "difficulty": "Easy",
+      "emoji": "💦",
+      "implementation_time": "5 minutes",
+      "steps": ["Soak dirty dishes in water", "Scrub with sponge", "Quick final rinse"]
+    },
+    {
+      "id": "k4",
+      "title": "Install Kitchen Aerator",
+      "description": "Low-cost tap aerator to reduce flow",
+      "water_saved": 15,
+      "cost_saved": 180,
+      "difficulty": "Easy",
+      "emoji": "💨",
+      "implementation_time": "3 minutes",
+      "steps": ["Get aerator (₹100)", "Unscrew tap head", "Install aerator", "Screw back"]
+    }
+  ],
+  "laundry": [
+    {
+      "id": "l1",
+      "title": "Full Laundry Loads",
+      "description": "Wash clothes only in full loads",
+      "water_saved": 30,
+      "cost_saved": 360,
+      "difficulty": "Easy",
+      "emoji": "👕",
+      "implementation_time": "0 minutes",
+      "steps": ["Collect clothes", "Fill machine completely", "Wash when full"]
+    },
+    {
+      "id": "l2",
+      "title": "Batch Laundry Days",
+      "description": "Wash clothes 2-3 times per week instead of daily",
+      "water_saved": 60,
+      "cost_saved": 720,
+      "difficulty": "Medium",
+      "emoji": "📅",
+      "implementation_time": "0 minutes",
+      "steps": ["Pick 2-3 wash days", "Collect clothes", "Wash on schedule"]
+    },
+    {
+      "id": "l3",
+      "title": "Cold Water Wash",
+      "description": "Use cold water instead of hot/warm",
+      "water_saved": 20,
+      "cost_saved": 240,
+      "difficulty": "Easy",
+      "emoji": "❄️",
+      "implementation_time": "0 minutes",
+      "steps": ["Select cold water setting", "Works for most clothes", "Saves electricity too"]
+    },
+    {
+      "id": "l4",
+      "title": "Eco Mode or Quick Wash",
+      "description": "Use eco or quick wash mode when possible",
+      "water_saved": 25,
+      "cost_saved": 300,
+      "difficulty": "Easy",
+      "emoji": "⚡",
+      "implementation_time": "0 minutes",
+      "steps": ["Select eco/quick mode", "Saves water and energy", "Good for lightly soiled clothes"]
+    }
+  ],
+  "outdoor": [
+    {
+      "id": "o1",
+      "title": "Smart Garden Watering",
+      "description": "Water plants early morning or evening",
+      "water_saved": 40,
+      "cost_saved": 480,
+      "difficulty": "Medium",
+      "emoji": "🌱",
+      "implementation_time": "0 minutes",
+      "steps": ["Water before 8 AM or after 6 PM", "Less evaporation", "Plants absorb more water"]
+    },
+    {
+      "id": "o2",
+      "title": "Drip Irrigation System",
+      "description": "Install drip irrigation instead of sprinkler",
+      "water_saved": 50,
+      "cost_saved": 600,
+      "difficulty": "Medium",
+      "emoji": "💧",
+      "implementation_time": "60 minutes",
+      "steps": ["Get drip kit (₹500-1000)", "Install pipes to plants", "Water directly to roots"]
+    },
+    {
+      "id": "o3",
+      "title": "Mulch Garden Soil",
+      "description": "Add mulch to retain soil moisture",
+      "water_saved": 35,
+      "cost_saved": 420,
+      "difficulty": "Medium",
+      "emoji": "🍂",
+      "implementation_time": "30 minutes",
+      "steps": ["Get mulch (grass clippings, leaves)", "Spread around plants", "Retains moisture"]
+    },
+    {
+      "id": "o4",
+      "title": "Rainwater Harvesting",
+      "description": "Collect rainwater for garden use",
+      "water_saved": 100,
+      "cost_saved": 1200,
+      "difficulty": "Hard",
+      "emoji": "🌧️",
+      "implementation_time": "120 minutes",
+      "steps": ["Get water tank", "Connect to downpipe", "Use for garden"]
+    }
+  ]
+}
