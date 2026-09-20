@@ -18,6 +18,25 @@ from tips_database import get_tips_by_category, get_categories, calculate_impact
 # PAGE CONFIG
 # =============================================================================
 st.set_page_config(page_title="WaterSaver AI", page_icon="💧", layout="wide")
+import socket
+try:
+    socket.create_connection(("127.0.0.1", 11434), timeout=1)
+    ollama_available = True
+except:
+    ollama_available = False
+
+if not ollama_available:
+    st.warning("""
+    ⚠️ **This is a DEMO version**
+    
+    Ollama (local AI) is not available in the cloud.
+    All responses use pre-written fallback answers.
+    
+    For the **full AI experience**, download:
+    1. Ollama from https://ollama.com
+    2. This project from GitHub
+    3. Run locally: `streamlit run app.py`
+    """)
 
 # =============================================================================
 # SESSION STATE
